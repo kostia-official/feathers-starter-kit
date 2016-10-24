@@ -2,6 +2,10 @@
   "host": "localhost",
   "port": 3020,
   "db": {
-    "url": "mongodb://localhost:27017/share"
+    "url": "mongodb://localhost:27017/feathers-starter-kit"
+  },
+  "facebook": {
+    "id": "FACEBOOK_APP_ID",
+    "secret": "FACEBOOK_APP_SECRET"
   }
 }

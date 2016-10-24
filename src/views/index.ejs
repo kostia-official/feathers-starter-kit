@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Feathers JS Starter Kit</title>
+</head>
+<body>
+<% if (!user) { %>
+<div align="center">
+    <a href="/auth/facebook"><img src="login_with_facebook.png"></a>
+</div>
+<% } else { %>
+<h2>Hello, <%= user.name %>!</h2>
+<% } %>
+</body>
+</html>

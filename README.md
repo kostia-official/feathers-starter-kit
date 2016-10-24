@@ -6,6 +6,7 @@ This project build on [Feathers](http://feathersjs.com). An open source web  fra
 It extending [default generator](https://github.com/feathersjs/generator-feathers) with following features:
 
 - ES6 to ES5 transpiling with webpack
+- Facebook login
 - Run server with `forever`
 - Replace `jshist` with `eslint`
 - Replace `mocha` with `ava`
