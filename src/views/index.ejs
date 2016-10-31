@@ -8,7 +8,14 @@
     <a href="/auth/facebook"><img src="login_with_facebook.png"></a>
 </div>
 <% } else { %>
-<h2>Hello, <%= user.name %>!</h2>
+<p>Liked: <%= liked %></p>
+<p><%= JSON.stringify(user, null, 4); %></p>
 <% } %>
+<br/>
+<div align="center">
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fburgerkingfranceofficiel%2F&width=98&layout=button&action=like&size=large&show_faces=true&share=false&height=65&appId"
+        width="98" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowTransparency="true"></iframe>
+</div>
 </body>
 </html>

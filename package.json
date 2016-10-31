@@ -34,6 +34,7 @@
     "deep-extend": "0.4.1",
     "ejs": "2.5.2",
     "express-session": "1.14.1",
+    "fb": "1.1.1",
     "feathers": "2.0.1",
     "feathers-authentication": "0.7.7",
     "feathers-errors": "2.1.0",
