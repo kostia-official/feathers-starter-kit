@@ -1,5 +1,7 @@
 # Feathers Starter Kit
 
+Demo - http://feathers-starter-kit.herokuapp.com
+
 ## About
 
 This project build on [Feathers](http://feathersjs.com). An open source web  framework for building modern real-time applications.
