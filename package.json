@@ -19,7 +19,8 @@
     "start": "forever -m 5 --spinSleepTime 30000 --minUptime 1000 -af dist/server.bundle.js",
     "ava": "NODE_ENV=test ava -v test/*.test.js",
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "amqplib": "0.4.1",
